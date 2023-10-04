@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+#root {
+    background-color: darkgray;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+
+}
+
+main {
+    background-color: lightgray;
+    border-radius: 1%;
+    padding: 2vh;
+    margin: 2vh;
+}
