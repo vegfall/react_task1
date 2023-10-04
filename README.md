@@ -15,7 +15,9 @@ Correct answer: Brukeren skal få tilbakemelding om at de svarte riktig og kunne
 Wrong answer: Brukeren skal få tilbakemelding om at de svarte feil og kunen få et nytt spørsmål
 
 ---
-Tips: Question bør se slik ut: <Question question={} onAnswer={handleAnswer} />
+Tips: 
+
+Question bør se slik ut: <Question question={} onAnswer={handleAnswer} />
 
 Bruk useState for å huske hvilket spørsmål brukeren har fått. Du kan bruke funksjonen randomQuestion i questions.js for å finne et spørsmål og isCorrectAnswer for å sjekke svaret
 
