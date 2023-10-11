@@ -16,3 +16,7 @@ main {
     padding: 2vh;
     margin: 2vh;
 }
+
+.questionButton {
+    margin: 0 2px 0 2px;
+}
