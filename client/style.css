@@ -1,5 +1,6 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 #root {
@@ -19,4 +20,5 @@ main {
 
 .questionButton {
     margin: 0 2px 0 2px;
+    min-width: 16vw;
 }

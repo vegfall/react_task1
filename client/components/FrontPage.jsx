@@ -2,8 +2,10 @@ import React from "react";
 
 export default function FrontPage() {
     return (
-        <div>
+        <>
+            <p>Welcome to my javascript quiz :)</p>
+            <br/>
             <a href="/quiz">New Quiz</a>
-        </div>
+        </>
     )
 };
