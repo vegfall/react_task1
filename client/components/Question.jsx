@@ -5,7 +5,10 @@ export default function Question({currentQuestion, clickAnswer}) {
     const answer = Object.entries(currentQuestion.answers)
         .filter(answerFiltered => answerFiltered[1])
         .map((answerOption) => {
-            return <AnswerButton buttonValue={answerOption} clickAnswer={() => clickAnswer(answerOption)}/>
+            return <AnswerButton
+                key={answerOption}
+                buttonValue={answerOption}
+                clickAnswer={() => clickAnswer(answerOption)}/>
         });
 
     return (
@@ -13,5 +16,5 @@ export default function Question({currentQuestion, clickAnswer}) {
             <b>{currentQuestion.question}</b>
             <p>{answer}</p>
         </>
-    )
+    );
 };
